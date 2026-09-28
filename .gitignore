@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Production build
+dist/
+
+# Scratch & test scripts
+*.log
+*.txt
+*.cjs
+!standalone_server.cjs
+run_*.ps1
+test_*.ps1
+print_err.ps1
+
+# Environment & OS
+.DS_Store
+Thumbs.db
+*.local
